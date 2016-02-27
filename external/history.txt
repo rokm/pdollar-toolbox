@@ -1,3 +1,6 @@
+Git HEAD:
+ -renamed function savefig -> save_fig, updated function calls in acfSweeps.m, acfTest.m: see issue #14
+
 Version 3.50 (12-May-2016)
  -migrating documentation to github
  -acfSweeps.m: Added ACF parameter sweep code to toolbox
@@ -31,7 +34,7 @@ Version 3.25 (15-Dec-2013)
 
 Version 3.24 (10-Oct-2013)
  -classify/private/*.cpp: minor fixes for very large datasets
- -classify/forest*.m: added new options for splitting/applying 
+ -classify/forest*.m: added new options for splitting/applying
  -videos/opticalFlow.m: various improvements, changes to parameters
  -matlab/medianw.m: added fast weighted median
  -toolboxCompile.m: added option to compile w/o openMP
@@ -79,7 +82,7 @@ Version 3.02 (19-Feb-2013)
  -chnsCompute.m/chnsPyramid.m: tweaks to input/output format
  -chnsScaling.m: improved robustness, various tweaks
  -fevalDistr.m: new usage cases, major overhaul
- -minor: gradientMag, rgbConvert, bbGt, opticalFlow, 
+ -minor: gradientMag, rgbConvert, bbGt, opticalFlow,
     convTri, convBox, mat2cell2, plotRoc
 
 Version 3.01 (17-Sep-2012)
@@ -90,7 +93,7 @@ Version 3.01 (17-Sep-2012)
 
 Version 3.00 (6-Aug-2012)
  * THIS IS A MAJOR RELEASE, FEATURING THE FOLLOWING NEW PACKAGE:
- *  channels/ - Robust image features, including HOG, for fast object detection. 
+ *  channels/ - Robust image features, including HOG, for fast object detection.
  * For more information, see channels/Contents.m. Other changes:
  -moved hog, hogDraw and imResample from images/ to channels/
  -removed mac binaries which were obsolete (code can still be compiled on a Mac)
@@ -219,9 +222,9 @@ Version 2.35 (17-Sep-09)
  -moved modefilt1.m form /image to /filters
  -added filters/medfilt1m.m: adaptive median filtering with missing values
  -added txt2img.m and char2img.m to /matlab: Convert text to binary image
- 
+
 Version 2.31 (03-Jun-09)
- -tweaked images/imrectLite.m 
+ -tweaked images/imrectLite.m
  -generalized matlab/bbApply>squarify and bbApply>toMask
  -added matlab/randSample.m (custom implem. of randsample in Stat Toolbox)
  -added images/diffTracker.m (see documentation)
@@ -239,7 +242,7 @@ Version 2.30 (15-May-09)
 Version 2.20 (06-Mar-09)
  -optimized classify/kmeans2 and classify/meanShift
  -added matlab/uniqueColor.m for generating random colors
- -added images/imDownsample (fast bilinear image downsampling) 
+ -added images/imDownsample (fast bilinear image downsampling)
  -tweaked/improved confMatrixShow
  -removed restriction that pidst2 must use type double
  -tweaked/added to bbApply.m
@@ -259,7 +262,7 @@ Version 2.12 (17-Nov-08)
 Version 2.11 (09-July-08)
  -removing external/xmltree from toolbox (not being used by anything)
  -removing /private directories from doc
- -added Google Analytics Code to documentation (replaced StatCounter) 
+ -added Google Analytics Code to documentation (replaced StatCounter)
 
 Version 2.10 (02-July-08)
  -added kernelTracker.m (and helper funciton) to /images
@@ -282,7 +285,7 @@ Version 2.02 (31-Oct-07)
  -made images/im.m compatible with Matlab2007b
  -in doc changed toolbox_compile to toolboxCompile
  -minor optimization / bug fix in matlab/arrayCrop
- -minor bugs/cleanup of images/imtransform2 
+ -minor bugs/cleanup of images/imtransform2
  -added images/imrectLite
 
 Version 2.01 (10-Oct-07)
@@ -340,6 +343,6 @@ Version 1.02  (29-Nov-05)
 
  Version 1.01  (11-Oct-05)
   -minor changes?
- 
+
  Version 1.00  (02-Oct-05)
   -initial version
